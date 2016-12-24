@@ -1,0 +1,22 @@
+{
+  "name": "agency-framework/export-preview.php",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Thorn Walli",
+      "email": "lammpee@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/agency-framework/handlebars.php"
+    }
+  ],
+  "require": {
+    "agency-framework/handlebars.php": "dev-master"
+  }
+}
