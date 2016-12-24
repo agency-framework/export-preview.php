@@ -7,7 +7,7 @@ class Utils {
     public static function getGlobalData()
     {
         $data = [];
-        $files = glob(__DIR__ . '/data/globals/*.json');
+        $files = glob(__DIR__ . '/export/data/globals/*.json');
         foreach ($files as $filename) {
             $name = preg_replace('/.*\/data\/(.*)\..*$/', '$1', $filename, 1);
             $fileData = json_decode(file_get_contents($filename), true);

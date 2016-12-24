@@ -36,7 +36,7 @@ $data = [
     ]
 ];
 // Load index data
-$data = array_merge($data, json_decode(file_get_contents(__DIR__ . '/data/index.json'), true));
+$data = array_merge($data, json_decode(file_get_contents(__DIR__ . '/export/data/index.json'), true));
 
 // Render page "index" with data
 echo html_entity_decode(Utils::renderPage($core, 'index', $data));
