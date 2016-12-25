@@ -16,7 +16,7 @@ class Utils {
                     $fileData[$i]['path'] = 'export/' . $fileData[$i]['path'];
                 }
             }
-            \AgencyFramework\Handlebars\Core::setVar($name, $fileData, $data);
+            \AgencyFramework\Handlebars\Core::setVarDeep($name, $fileData, $data);
         }
 
         return $data;
